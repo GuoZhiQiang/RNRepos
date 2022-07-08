@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { 'GuoZhiQiang' => '1029549847@qq.com' }
   s.platforms    = { :ios => "9.0", :tvos => "9.0" }
-  s.source       = { :git => "https://gitlab.tuhu.cn/tuhushop/ios/lib-common/react-native-gesture-handler.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GuoZhiQiang/react-native.git", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m}"
 
   s.dependency "React-Core"
